@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plan Your Trip</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5ba62af6e4.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- CSS Bootstrap only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Css -->
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- ----------------------------------------------------- Bootstrap navbar -------------------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand me-auto d-none d-sm-none d-md-block" href="#"><i class="uil uil-estate"></i> HOME</a>
+
+            <button class="btn navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars nav__icon"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse navig" id="navbarToggle">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link">PRICING</a>
+                    </li>
+                    <li class="nav-item nav__account">
+                        <a href="#newAccount" class="nav-link">ACCOUNT  <i class="far fa-user-circle accIcon"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ----------- Offcanvas / Sidebar ----------- -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <img class="offcanvas-title" id="offcanvasNavbarLabel" src="images/Logo.png" alt="logo" />
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav navbar-nav-offcanvas ms-auto">
+                        <li class="nav-item-offcanvas active">
+                            <a href="#home" class="nav-link-offcanvas active">HOME</a>
+                        </li>
+                        <li class="nav-item-offcanvas">
+                            <a href="#newAccount" class="nav-link-offcanvas">ACCOUNT</a>
+                        </li>
+                        <li class="nav-item-offcanvas">
+                            <a href="#about" class="nav-link-offcanvas">ABOUT US</a>
+                        </li>
+                        <li class="nav-item-offcanvas">
+                            <a href="#pricing" class="nav-link-offcanvas">PRICING</a>
+                        </li>
+                        <li class="nav-item-offcanvas">
+                            <a href="#contact" class="nav-link-offcanvas">CONTACT US</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="offcanvas-subtitle">
+                        Copyright 2021 &#8226; Plan Your Trip
+                    </div>
+                    <br>
+                    <div>For more queries contact us at <br>helpdesk@planyourtrip.com</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------------------------------------------------------ Main ----------------------------------------------------------------------------- -->
+    <header class="top">
+        <div class="container">
+            <div class="ps-2 pt-5">
+                <div class="logo">
+                    <img src="images/Logo.png" alt="logo">
+                </div>
+                <span class="subtitle__border1"></span>
+                <span class="subtitle__border2"></span>
+                <span class="subtitle__border3"></span>
+                <div class="subtitles">
+                    <h3>Got a long trip planned but dont know<br>how to organise?</h3>
+                    <small>Leave the planning to use while you focus on the trip</small>
+                </div>
+                <span class="subtitle__border4"></span>
+                <span class="subtitle__border5"></span>
+                <span class="subtitle__border6"></span>
+                <div class="btn btn-lg subtitle__btn">TRY FOR FREE <i class="fas fa-arrow-right"></i></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- -------------- SVG --------------- -->
+    <div class="d-flex align-content-center justify-content-center bg-img">
+        <svg class="wave1 col-8 col-sm-10 col-md-10" width="1202" height="527" viewBox="0 0 1202 527" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M339.132 343.858C155.791 341.164 74.5 527 0 527H1202V0C1060.44 0 962.43 108.933 811.531 262.174C661.67 372.7 557.753 347.071 339.132 343.858Z" fill="#BD00FF" fill-opacity="0.42"/>
+                </svg>
+        <svg class="wave2 col-8 col-sm-10 col-md-10" width="1160" height="426" viewBox="0 0 1160 426" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M327.282 277.957C150.348 275.78 83 426 0 426H1160V0C1023.38 0 928.801 88.0558 783.175 211.928C638.55 301.272 538.264 280.554 327.282 277.957Z" fill="#BD00FF"/>
+                </svg>
+    </div>
+
+    <main class="bottom">
+        <div class="container">
+            <div class="d-flex align-content-center justify-content-center bottom-heading">
+                <span class="row bottom-border1"></span>
+                <h2 class="row">our happiness</h2>
+                <span class=" row bottom-border2"></span>
+            </div>
+
+
+            <!-- ------- Bootstrap Card -------- -->
+            <div class="row">
+                <div class="d-flex col-sm-6 col-md-4 justify-content-center align-content-center">
+                    <div class="card" style="width: 16rem; height: 21rem;">
+                        <img src="images/portrait1.jpg" height="150px" class="card-img-top card__img" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">ELENE ROSEN</h3>
+                            <p class="card-text">This was a wonderful experience for all of us in our family</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex col-sm-6 col-md-4 justify-content-center align-content-center">
+                    <div class="card" style="width: 16rem; height: 21rem;">
+                        <img src="images/portrait2.jpeg" height="150px" class="card-img-top card__img" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">ELENE ROSEN</h3>
+                            <p class="card-text">This was a wonderful experience for all of us in our family</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex col-sm-6 col-md-4 justify-content-center align-content-center">
+                    <div class="card" style="width: 16rem; height: 21rem;">
+                        <img src="images/portrait3.png" height="150px" class="card-img-top card__img" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">ELENE ROSEN</h3>
+                            <p class="card-text">This was a wonderful experience for all of us in our family</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ---------------------------------------------------------- Footer ------------------------------------------------------------------------------ -->
+    <footer>
+        <button class="btn scrollTopBtn" id="scrollTopBtn" onclick="topFunction()"><i class="fas fa-chevron-up"></i></button>
+    </footer>
+
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- JS -->
+<script src="main.js"></script>
+
+</html>
